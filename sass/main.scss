@@ -1,7 +1,5 @@
 
 
-
-
 @import './base/normalize';
 @import './base/reset';
 @import './utils/variables';
@@ -14,22 +12,16 @@
 @import './components/team';
 @import './components/work';
 
-
-
-
-
 body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
 
-    font-family: Roboto, sans-serif;
+    font-family: $roboto;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-
-
 
 /* Main-nav */
 
@@ -939,8 +931,9 @@ body {
 
 }
 
-.subscribe__text {
+.subscribe--text {
     color: var(--primary-white-color);
+    font-family: $roboto;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.60;
@@ -948,7 +941,7 @@ body {
 
 }
 
-.subscribe-icon {
+.subscribe__icon {
     margin-left: 10px;
 }
 
@@ -957,8 +950,6 @@ body {
     display: block;
     padding-left: 16px;
     padding-top: 15px; */
-
-
 
 
 /* Портфоліо МЕНЮ */
